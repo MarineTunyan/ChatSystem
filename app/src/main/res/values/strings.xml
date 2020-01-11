@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Office Assistant</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="Repeatpassword">Repeat password</string>
+    <string name="FullName">Full Name</string>
+    <string name="Phone">Phone</string>
+    <string name="Company">Company</string>
+    <string name="Profile">Profile</string>
+    <string name="Home">Home</string>
+    <string name="BirthDay_date_button_set">Birthday</string>
+    <string name="Birthday">Birthday</string>
+    <string name="YourBirthday">Your Birthday</string>
+    <string name="Set_Birthday">Birthday</string>
+    <string name="SetYour_Birthday">Set your birthday</string>
+    <string name="enter_birthday">Enter Birthday</string>
+    /////////////////////////////
+    <string name="ok">Ok</string>
+    <string name="error_message">Error occurred!</string>
+    <string name="message_need_permission">Need Permissions</string>
+    <string name="message_grant_permission">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="label_setting">GOTO SETTINGS</string>
+    <string name="cancel">Cancel</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_gallery">Choose from Gallery</string>
+    <string name="url_androidwave">https://androidwave.com/</string>
+    <string name="url_androidwave_android">https://androidwave.com/category/android/</string>
+    <string name="error_message_no_more_space">string1</string>
+    <string name="error_message_insufficient_space">string2</string>
+
+</resources>
