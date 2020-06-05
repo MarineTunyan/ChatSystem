@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="@drawable/gradient_background"
+    android:background="@drawable/signup_background"
     tools:context=".Registration">
 
 <RelativeLayout
@@ -18,6 +18,33 @@
     android:paddingRight="30dp"
     android:id="@+id/reg_rel_layout"
     tools:context=".LoginPage">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Full_name"
+        style="@style/LoginTextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:background="@color/fui_transparent"
+        android:theme="@style/LoginTextInputLayoutStyle"
+        app:boxStrokeColor="#fff"
+        app:errorEnabled="true"
+        android:layout_marginTop="30dp"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+        <EditText
+            android:id="@+id/full_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:hint="@string/FullName"
+            android:textCursorDrawable="@color/white"
+            android:inputType="text"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/white"
+            android:textSize="22dp" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/text_input_email"
@@ -25,9 +52,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColorHint="@color/white"
+        android:background="@color/fui_transparent"
         android:theme="@style/LoginTextInputLayoutStyle"
         app:boxStrokeColor="#fff"
+        android:layout_below="@+id/Full_name"
         app:errorEnabled="true"
+        android:layout_marginTop="10dp"
         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
 
         <EditText
@@ -54,6 +84,7 @@
         android:theme="@style/LoginTextInputLayoutStyle"
         app:boxStrokeColor="#fff"
         app:errorEnabled="true"
+        android:layout_marginTop="10dp"
         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
         app:passwordToggleEnabled="true"
         app:passwordToggleTint="@color/white">
@@ -62,9 +93,9 @@
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="30dp"
             android:gravity="left"
-            android:hint="@string/password"
+            android:hint="@string/Password"
             android:textCursorDrawable="@color/white"
             android:inputType="textPassword"
             android:paddingTop="5dp"
@@ -72,8 +103,9 @@
             android:textColorHint="@color/white"
             android:textSize="22dp" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_password"
+        android:id="@+id/RepeatPassword"
         style="@style/LoginTextInputLayoutStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -82,45 +114,20 @@
         android:theme="@style/LoginTextInputLayoutStyle"
         app:boxStrokeColor="#fff"
         app:errorEnabled="true"
+        android:layout_marginTop="10dp"
         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
         app:passwordToggleEnabled="true"
         app:passwordToggleTint="@color/white">
 
         <EditText
-            android:id="@+id/again_password"
+            android:id="@+id/Repeat_password"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="30dp"
             android:gravity="left"
             android:hint="@string/Repeatpassword"
             android:textCursorDrawable="@color/white"
             android:inputType="textPassword"
-            android:paddingTop="5dp"
-            android:textColor="@android:color/white"
-            android:textColorHint="@color/white"
-            android:textSize="22dp" />
-    </com.google.android.material.textfield.TextInputLayout>
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/fll_name"
-        style="@style/LoginTextInputLayoutStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColorHint="@color/white"
-        android:layout_below="@+id/text_password"
-        android:theme="@style/LoginTextInputLayoutStyle"
-        app:boxStrokeColor="#fff"
-        app:errorEnabled="true"
-        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
-
-        <EditText
-            android:id="@+id/full_name"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="5dp"
-            android:gravity="left"
-            android:hint="@string/FullName"
-            android:textCursorDrawable="@color/white"
-            android:inputType="text"
             android:paddingTop="5dp"
             android:textColor="@android:color/white"
             android:textColorHint="@color/white"
@@ -131,12 +138,13 @@
         android:id="@+id/birthday"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_below="@+id/fll_name"
+        android:layout_below="@+id/RepeatPassword"
         android:background="@drawable/button_border"
-        android:gravity="start"
+        android:gravity="left"
         android:hint="@string/enter_birthday"
         android:onClick="setDate"
         android:padding="10dp"
+        android:layout_marginTop="10dp"
         android:paddingLeft="10dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="15dp"
@@ -147,14 +155,16 @@
         android:textColorHint="@color/white"
         android:textSize="22dp" />
 
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/text_phone"
         style="@style/LoginTextInputLayoutStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColorHint="@color/white"
         android:layout_below="@+id/birthday"
+        android:layout_alignParentStart="true"
         android:layout_marginTop="50dp"
+        android:textColorHint="@color/white"
         android:theme="@style/LoginTextInputLayoutStyle"
         app:boxStrokeColor="#fff"
         app:errorEnabled="true"
@@ -164,41 +174,14 @@
             android:id="@+id/phonenumber"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="20dp"
             android:gravity="left"
             android:hint="@string/Phone"
             android:inputType="phone"
-            android:textCursorDrawable="@color/white"
             android:paddingTop="5dp"
             android:textColor="@android:color/white"
             android:textColorHint="@color/white"
-            android:textSize="22dp" />
-    </com.google.android.material.textfield.TextInputLayout>
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_company"
-        style="@style/LoginTextInputLayoutStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColorHint="@color/white"
-        android:layout_below="@+id/text_phone"
-
-        android:theme="@style/LoginTextInputLayoutStyle"
-        app:boxStrokeColor="#fff"
-        app:errorEnabled="true"
-        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
-
-        <EditText
-            android:id="@+id/company"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="5dp"
-            android:gravity="left"
-            android:hint="@string/Company"
             android:textCursorDrawable="@color/white"
-            android:inputType="text"
-            android:paddingTop="5dp"
-            android:textColor="@android:color/white"
-            android:textColorHint="@color/white"
             android:textSize="22dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -208,13 +191,14 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="20dp"
         android:onClick="sign_up"
         style="?android:attr/button"
-        android:layout_below="@+id/text_company"
+        android:layout_below="@+id/text_phone"
         android:background="@drawable/button_gradient"
-        android:text="SIGN UP"
+        android:text="Sign Up"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp" />
 

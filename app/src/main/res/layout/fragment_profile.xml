@@ -11,8 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true">
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -20,40 +18,38 @@
             android:orientation="vertical"
             android:padding="5dp"
             android:showDividers="middle">
-            >
-
 
             <FrameLayout
-                android:layout_width="170dp"
-                android:layout_height="170dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="5dp">
-                <com.example.officeassistant.CircularImageView
-                    android:id="@+id/profile_image"
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="15dp"
-                    android:background="@drawable/profile_account"
-                    />
-
-            <com.example.officeassistant.CircularImageView
-                android:id="@+id/iv_camera"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="bottom|right"
-                android:background="@drawable/color"
-                android:padding="5dp"
-                android:src="@drawable/add_photo_foreground" />
-            </FrameLayout>
-            <TextView
-                android:id="@+id/id_company"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:textColor="@color/Blue"
-                android:textSize="22dp">
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/profile_background"
 
-            </TextView>
+                >
+
+<!--                <chat_systemcularImageView-->
+<!--                    android:id="@+id/profile_image"-->
+<!--                    android:layout_width="140dp"-->
+<!--                    android:layout_height="140dp"-->
+<!--                    android:layout_gravity="bottom|center"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:background="@drawable/profile_white" />-->
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="5dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="@color/white"/>
+
+
+            </FrameLayout>
+
+
 
             <TextView
                 android:id="@+id/fullName"
@@ -73,14 +69,6 @@
 
             </TextView>
 
-            <TextView
-                android:id="@+id/profile_email"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:textColor="@color/Blue"
-                android:textSize="22dp">
-
-            </TextView>
 
             <TextView
                 android:id="@+id/phone"
@@ -105,6 +93,7 @@
                 android:textSize="18sp" />
 
         </LinearLayout>
+
     </ScrollView>
 
 </FrameLayout>

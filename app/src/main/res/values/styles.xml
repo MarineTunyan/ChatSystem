@@ -15,11 +15,14 @@
 </style>
     <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
         <item name="android:textColor">@color/white</item>
+
+
     </style>
     <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
-        <item name="boxStrokeColor">#fff</item>
+        <item name="boxStrokeColor">@color/fui_transparent</item>
         <item name="android:padding">5dp</item>
         <item name="boxStrokeWidth">1dp</item>
+
     </style>
     <style name="Button" parent="@style/Widget.AppCompat.Button.Borderless">
     </style>
