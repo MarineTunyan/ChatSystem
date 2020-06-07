@@ -1,4 +1,4 @@
-package com.example.chat_system.picker;
+package com.example.chatsystem.picker;
 
 import android.net.Uri;
 

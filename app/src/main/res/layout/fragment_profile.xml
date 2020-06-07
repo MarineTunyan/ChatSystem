@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ProfileFragment"
+    tools:context="com.example.chatsystem.ProfileFragment"
     >
 
     <ScrollView
@@ -28,7 +28,7 @@
 
                 >
 
-<!--                <chat_systemcularImageView-->
+<!--                <chatsystemcularImageView-->
 <!--                    android:id="@+id/profile_image"-->
 <!--                    android:layout_width="140dp"-->
 <!--                    android:layout_height="140dp"-->

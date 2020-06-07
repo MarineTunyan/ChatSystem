@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:background="@drawable/signup_background"
-    tools:context=".Registration">
+    tools:context="com.example.chatsystem.Registration">
 
 <RelativeLayout
     android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
     android:paddingTop="20dp"
     android:paddingRight="30dp"
     android:id="@+id/reg_rel_layout"
-    tools:context=".LoginPage">
+    tools:context="com.example.chatsystem.LoginPage">
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/Full_name"
         style="@style/LoginTextInputLayoutStyle"

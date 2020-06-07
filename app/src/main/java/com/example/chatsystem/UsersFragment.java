@@ -1,4 +1,4 @@
-package com.example.chat_system;
+package com.example.chatsystem;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -7,8 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.chat_system.Adapter.UserAdapter;
-import com.example.chat_system.services.AuthService;
+import com.example.chatsystem.Adapter.UserAdapter;
+import com.example.chatsystem.R;
+import com.example.chatsystem.services.AuthService;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;

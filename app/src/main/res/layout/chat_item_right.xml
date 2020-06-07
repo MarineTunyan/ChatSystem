@@ -10,7 +10,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true">
 
-        <com.example.chat_system.CircularImageView
+        <com.example.chatsystem.CircularImageView
             android:id="@+id/profile_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

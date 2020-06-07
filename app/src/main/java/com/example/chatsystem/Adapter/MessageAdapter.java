@@ -1,4 +1,4 @@
-package com.example.chat_system.Adapter;
+package com.example.chatsystem.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.chat_system.Chat;
-import com.example.chat_system.R;
+import com.example.chatsystem.Chat;
+import com.example.chatsystem.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;

@@ -1,4 +1,4 @@
-package com.example.chat_system;
+package com.example.chatsystem;
 
 
 import android.app.ProgressDialog;
@@ -17,7 +17,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.example.chat_system.services.AuthService;
+import com.example.chatsystem.R;
+import com.example.chatsystem.services.AuthService;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;

@@ -1,11 +1,12 @@
-package com.example.chat_system;
+package com.example.chatsystem;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Button;
 
-import com.example.chat_system.services.AuthService;
+import com.example.chatsystem.R;
+import com.example.chatsystem.services.AuthService;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.CollectionReference;

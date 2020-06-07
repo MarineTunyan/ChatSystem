@@ -1,4 +1,4 @@
-package com.example.chat_system.Adapter;
+package com.example.chatsystem.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,10 +11,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.chat_system.MessageActivity;
-import com.example.chat_system.R;
-import com.example.chat_system.User;
-import com.example.chat_system.services.AuthService;
+import com.example.chatsystem.MessageActivity;
+import com.example.chatsystem.R;
+import com.example.chatsystem.User;
+import com.example.chatsystem.services.AuthService;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;

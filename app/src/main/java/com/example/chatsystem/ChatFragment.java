@@ -1,11 +1,12 @@
-package com.example.chat_system;
+package com.example.chatsystem;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.chat_system.Adapter.UserAdapter;
+import com.example.chatsystem.Adapter.UserAdapter;
+import com.example.chatsystem.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.CollectionReference;

@@ -1,9 +1,11 @@
-package com.example.chat_system;
+package com.example.chatsystem;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.chatsystem.R;
 
 import androidx.fragment.app.Fragment;
 

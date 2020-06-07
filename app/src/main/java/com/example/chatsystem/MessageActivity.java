@@ -1,4 +1,4 @@
-package com.example.chat_system;
+package com.example.chatsystem;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,7 +22,8 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.chat_system.Adapter.MessageAdapter;
+import com.example.chatsystem.Adapter.MessageAdapter;
+import com.example.chatsystem.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;

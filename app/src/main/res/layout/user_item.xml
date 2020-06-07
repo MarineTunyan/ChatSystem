@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginTop="10dp"
     android:layout_marginLeft="20dp">
-    <com.example.chat_system.CircularImageView
+    <com.example.chatsystem.CircularImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:id="@+id/prof_image"
@@ -24,7 +24,7 @@
         android:layout_centerVertical="true"
         android:textSize="18sp"
         />
-    <com.example.chat_system.CircularImageView
+    <com.example.chatsystem.CircularImageView
 
         android:layout_width="15dp"
         android:layout_height="15dp"
@@ -37,7 +37,7 @@
         android:layout_toRightOf="@+id/prof_image"
         android:layout_toEndOf="@+id/prof_image"
     />
-    <com.example.chat_system.CircularImageView
+    <com.example.chatsystem.CircularImageView
 
         android:layout_width="15dp"
         android:layout_height="15dp"

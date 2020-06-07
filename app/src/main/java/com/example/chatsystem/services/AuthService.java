@@ -1,4 +1,4 @@
-package com.example.chat_system.services;
+package com.example.chatsystem.services;
 
 import com.google.firebase.auth.FirebaseAuth;
 

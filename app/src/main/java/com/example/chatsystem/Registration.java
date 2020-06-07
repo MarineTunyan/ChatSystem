@@ -1,4 +1,4 @@
-package com.example.chat_system;
+package com.example.chatsystem;
 
 import android.app.DatePickerDialog;
 import android.content.Context;
@@ -17,8 +17,9 @@ import android.widget.EditText;
 import android.widget.ScrollView;
 import android.widget.Toast;
 
-import com.example.chat_system.services.AuthService;
-import com.example.chat_system.services.DBHandler;
+import com.example.chatsystem.R;
+import com.example.chatsystem.services.AuthService;
+import com.example.chatsystem.services.DBHandler;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputLayout;

@@ -1,4 +1,4 @@
-package com.example.chat_system;
+package com.example.chatsystem;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
